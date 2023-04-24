@@ -1,26 +1,26 @@
 -- drop tables and sequences to be recreated
-drop table band_member;
-drop table name_change;
-drop table musician;
-drop table band;
-drop table genre;
-drop table string_instrument;
-drop table woodwind_instrument;
-drop table brass_instrument;
-drop table percussion_instrument;
-drop table voice;
-drop table instrument;
-drop table region;
+drop table if exists band_member;
+drop table if exists name_change;
+drop table if exists musician;
+drop table if exists band;
+drop table if exists genre;
+drop table if exists string_instrument;
+drop table if exists woodwind_instrument;
+drop table if exists brass_instrument;
+drop table if exists percussion_instrument;
+drop table if exists voice;
+drop table if exists instrument;
+drop table if exists region;
 
-drop sequence instrument_seq;
-drop sequence band_seq;
-drop sequence region_seq;
-drop sequence genre_seq;
-drop sequence musician_seq;
-drop sequence band_member_seq;
-drop sequence name_change_seq;
+drop sequence if exists instrument_seq;
+drop sequence if exists band_seq;
+drop sequence if exists region_seq;
+drop sequence if exists genre_seq;
+drop sequence if exists musician_seq;
+drop sequence if exists band_member_seq;
+drop sequence if exists name_change_seq;
 
-drop function list_tables();
+drop function if exists list_tables();
 
 
 -- TABLES
