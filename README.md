@@ -1,5 +1,5 @@
 # folk_instrument_database
-This PostgreSQL database script was created as part of a structural databse design class.
+This PostgreSQL database script was created as part of a structural database design class (BU MET CS669).
 
 This represents the culmination of designing and implementing this database from scratch. There is relatively little data in it because all the data entry was done by hand.
 
